@@ -285,7 +285,7 @@ th{
   padding: 10px 20px;
 }
 td{
-  padding: 20px 10px;
+  padding: 20px 7px;
   height: 18px;
   min-width: 95px;
 }
@@ -482,6 +482,12 @@ td{
   transition:box-shadow 0.6s cubic-bezier(.79,.21,.06,.81);
 }
 .portfoliomid{
+  max-height: 220px;
+  height: 100%;
+  display: block;
+  text-align: center;
+}
+.portfoliomid2{
   max-height: 220px;
   height: 100%;
   display: block;

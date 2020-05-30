@@ -89,7 +89,7 @@
     top: 340px;
   }
   .wrapper3{
-    min-height: 1500px;
+    min-height: 1700px;
   }
   .profile_box3{
     top: 5%;
@@ -124,6 +124,9 @@
   }
   .portfoliomid{
     margin: 0 50px;
+  }
+  .portfoliomid2{
+    margin-top: 150px;
   }
   .portfoliobottom{
     margin: 0 50px;
