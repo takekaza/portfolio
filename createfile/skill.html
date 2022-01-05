@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>life-log.site</title>
+  <link rel="stylesheet" type="text/css" href="stylesheets/reset.css">
+  <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+  <link rel="stylesheet" type="text/css" href="stylesheets/action.css">
+  <link rel="stylesheet" type="text/css" href="stylesheets/animation.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <link rel="stylesheet" href="stylesheets/jquery.fullPage.css">
+  <script src="js/animation.js" defer></script>
+  <script src="js/jquery.fullPage.js" defer></script>
+  <script src="js/jquery.easings.min.js" defer></script>
+  <script src="js/scrolloverflow.min.js" defer></script>
+  <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+
+<body>
+  <div id="load" class="js-loading js-load">
+    <img src="images/portfolio.jpg" alt="">
+  </div>
+  <div class="line-sketch load-in">
+    <img src="images/line-background.jpg" alt="line">
+  </div>
+  <div class="body load-in" id="fullpage">
+    <section class="wrapper section" id="top">
+      <!-- <div class="main-image tg-1">
+        <img class="main-image__img" src="images/engineer.jpg" alt="engineer">
+      </div> -->
+      <div class="profile">
+        <p class="profile__renewal btnlinestretches5">
+          Coming Soon...
+        </p>
+      </div>
+
+      <!-- <div class="scrollleft">
+        <span>Scroll</span>
+      </div> -->
+      <a class="showleft" href="index.html">
+        Back
+      </a>
+
+      <svg class="bottom" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+        viewBox=" 0 24 150 28 " preserveAspectRatio="none">
+        <defs>
+          <path id="gentle-wave" d="M-160 44c30 0 
+            58-18 88-18s
+            58 18 88 18 
+            58-18 88-18 
+            58 18 88 18
+            v44h-320z" />
+        </defs>
+        <g class="wave1">
+          <use xlink:href="#gentle-wave" x="50" y="3" stroke="#000" fill="#fff" fill-opacity="0%" />
+        </g>
+        <g class="wave4">
+          <use xlink:href="#gentle-wave" x="50" y="0" stroke="#000" fill="#fff" fill-opacity="0%" />
+        </g>
+        <g class="wave3">
+          <use xlink:href="#gentle-wave" x="50" y="6" stroke="#000" fill="#fff" fill-opacity="0%" />
+        </g>
+      </svg>
+    </section>
+
+    <!-- <section class="wrapper section" id="page2">
+      <div class="content">
+        <h2 class="content-title tg-2">About</h2>
+        <div class="content-area">
+          <div class="about-image tg-2">
+            <img class="profile-img" src="images/about.jpg" alt="profile-img">
+          </div>
+          <div class="content-item">
+            <p>
+              Web Engineer, ,
+            </p>
+            <ul class="content-item__text">
+              <li>
+              </li>
+              <li>
+                <a class="twlink" href="https://twitter.com/181818tk"><i class="fab fa-twitter ok2"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="wrapper section" id="page3">
+      <div class="content">
+        <h2 class="content-title tg-3">Skill</h2>
+        <div class="content-area">
+          <div class="skill-image">
+            <img src="images/skill.jpg" alt="skill-image">
+          </div>
+          <div class="content-item">
+            <p>
+              Like, ,
+            </p>
+            <ul class="content-item__text skill-box">
+              <li class="tg-od-3">
+                <i class="fab fa-html5"></i>
+              </li>
+              <li class="tg-od-3">
+                <i class="fab fa-css3-alt"></i>
+              </li>
+              <li class="tg-od-3">
+                <i class="fab fa-js"></i>
+              </li>
+              <li class="tg-od-3">
+                <i class="far fa-gem"></i>
+              </li>
+              <li class="tg-od-3">
+                <i class="fab fa-php"></i>
+              </li>
+              <li class="tg-od-3">
+                ...
+              </li>
+              <a class="showright" href="#">
+                <span>
+                  more
+                </span>
+                <img src="images/pf-skill.png" alt="skill">
+              </a>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="wrapper section" id="page4">
+      <div class="content">
+        <h2 class="content-title tg-4">Product</h2>
+        <div class="content-area">
+          <div class="pf-image">
+            <img src="images/HandmadeOhkaPresent.png" alt="homelifeimg">
+          </div>
+          <div class="content-item">
+            <p>
+              Web Site , ,
+            </p>
+            <ul class="content-item__text">
+              <li>
+              </li>
+              <li>
+                <a class="pf-link" href="https://handmadeohkapresent.herokuapp.com/index.html">Show More</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="wrapper section" id="page5">
+      <div class="content">
+        <h2 class="content-title tg-5">Contact</h2>
+
+        <div class="content-area">
+          <div class="contact-image">
+            <img src="images/contact.jpg" alt="contact">
+          </div>
+
+          <div class="content-item">
+            <p>
+              Contact is, ,
+            </p>
+            <ul class="content-item__text">
+              <li>
+                <a class="pf-link" href="mailto:tacalog18@gmail.com">tacalog18@gmail.com</a>
+              </li>
+              <li>
+                <p>
+                  Copyright © life-log.site, Portfolio.<br>
+                  All Rights Reserved
+                </p>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+
+      </div>
+    </section> -->
+
+  </div>
+  <!-- ↑メイン画面 -->
+  <script src="js/fullPage.js"></script>
+</body>
+
+</html>

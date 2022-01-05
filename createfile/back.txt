@@ -1,0 +1,218 @@
+■スキルページ
+<!-- <div class="skillmid">
+<ul class="skillul1">
+  <li class="skillli1">
+    <div class="card">
+      <h4><i class="fas fa-laptop-code"></i>マークアップ&デザイン</h4>
+      <table>
+        <thead>
+          <tr>
+            <th>テクニカル</th>
+            <th>スキル</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><i class="fab fa-html5"></i>HTML</td>
+            <td><i class="fas fa-medal"></i><i class="fas fa-medal"></i><i class="fas fa-medal"></i><i
+                class="fas fa-medal"></i><i class="fas fa-medal no"></i></td>
+          </tr>
+          <tr>
+            <td><i class="fab fa-css3-alt"></i>CSS</td>
+            <td><i class="fas fa-medal"></i><i class="fas fa-medal"></i><i class="fas fa-medal"></i><i
+                class="fas fa-medal"></i><i class="fas fa-medal no"></i></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </li>
+  <li class="skillli1">
+    <div class="card">
+      <h4><i class="fas fa-laptop-code"></i>フロントサイド</h4>
+      <table>
+        <thead>
+          <tr>
+            <th>テクニカル</th>
+            <th>スキル</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><i class="fab fa-js"></i>JavaScript</td>
+            <td><i class="fas fa-medal"></i><i class="fas fa-medal"></i><i class="fas fa-medal no"></i><i
+                class="fas fa-medal no"></i><i class="fas fa-medal no"></i></td>
+          </tr>
+          <tr>
+            <td><img class="jqimg" src="images/jquery-logo.png" alt="jqimg"><span class="jqtext">jQuery</span>
+            </td>
+            <td><i class="fas fa-medal"></i><i class="fas fa-medal"></i><i class="fas fa-medal no"></i><i
+                class="fas fa-medal no"></i><i class="fas fa-medal no"></i></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </li>
+</ul>
+</div>
+<div class="skillbottom">
+<ul class="skillul2">
+  <li class="skillli2">
+    <div class="card">
+      <h4><i class="fas fa-laptop-code"></i>サーバーサイド</h4>
+      <table>
+        <thead>
+          <tr>
+            <th>テクニカル</th>
+            <th>スキル</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><i class="far fa-gem"></i>Ruby/Rails</td>
+            <td><i class="fas fa-medal"></i><i class="fas fa-medal"></i><i class="fas fa-medal"></i><i
+                class="fas fa-medal no"></i><i class="fas fa-medal no"></i></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </li>
+  <li class="skillli2">
+    <div class="card">
+      <h4><i class="fas fa-database"></i>データベース</h4>
+      <table>
+        <thead>
+          <tr>
+            <th>テクニカル</th>
+            <th>スキル</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><img class="mysimg" src="images/mysql.png" alt="mysimg"><span class="mystext">MySQL</span>
+            </td>
+            <td><i class="fas fa-medal"></i><i class="fas fa-medal"></i><i class="fas fa-medal no"></i><i
+                class="fas fa-medal no"></i><i class="fas fa-medal no"></i></td>
+          </tr>
+          <tr>
+            <td><img class="posimg" src="images/Postgresql_elephant.png" alt="postimg"><span
+                class="postext">PostgreSQL</span></td>
+            <td><i class="fas fa-medal"></i><i class="fas fa-medal no"></i><i class="fas fa-medal no"></i><i
+                class="fas fa-medal no"></i><i class="fas fa-medal no"></i></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </li>
+  <li class="skillli2">
+    <div class="card">
+      <h4><i class="fas fa-network-wired"></i>インフラ＆その他</h4>
+      <table>
+        <thead>
+          <tr>
+            <th>テクニカル</th>
+            <th>スキル</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><i class="fab fa-aws"></i>AWS</td>
+            <td><i class="fas fa-medal"></i><i class="fas fa-medal"></i><i class="fas fa-medal no"></i><i
+                class="fas fa-medal no"></i><i class="fas fa-medal no"></i></td>
+          </tr>
+          <tr>
+            <td><i class="fab fa-github ok"></i>GitHub</td>
+            <td><i class="fas fa-medal"></i><i class="fas fa-medal"></i><i class="fas fa-medal no"></i><i
+                class="fas fa-medal no"></i><i class="fas fa-medal no"></i></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </li>
+</ul>
+</div> -->
+
+
+■CSS
+↓斜め線
+/* .main-image::before,
+.main-image::after {
+  content: "";
+  position: absolute;
+  transform: rotate(-35deg);
+  width: 70px;
+  height: 25px;
+  background-color: #9a9389;
+  z-index: 1;
+}
+.main-image::before {
+  top: -10px;
+  left: -25px;
+  border-bottom: 1.5px solid #aaa;
+}
+.main-image::after {
+  bottom: -10px;
+  right: -25px;
+  border-top: 1.5px solid #aaa;
+} */
+
+
+* 無限タイトルアニメーション */
+/* .btnlinestretches5::after {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  
+  width: 8px;
+  height: 8px;
+  border-top: 1px solid #333;
+  border-right: 1px solid #333;
+  transform: rotate(45deg);
+} */
+/*線と矢印を繰り返しアニメーション*/
+/* .btnlinestretches5::before {
+  animation: arrowlong01 3s ease infinite;
+}
+.btnlinestretches5::after {
+  animation: arrowlong02 2s ease infinite;
+  animation-delay: 2s;
+}
+@keyframes arrowlong01 {
+  0% {
+    width: 0;
+    opacity: 0;
+  }
+  20% {
+    width: 0;
+    opacity: 1;
+  }
+  80% {
+    width: 105%;
+    opacity: 1;
+  }
+  100% {
+    width: 105%;
+    opacity: 0;
+  }
+}
+@keyframes arrowlong02 {
+  0% {
+    left: 0;
+    opacity: 0;
+  }
+  20% {
+    left: 0;
+    opacity: 1;
+  }
+  80% {
+    left: 103%;
+    opacity: 1;
+  }
+  100% {
+    left: 103%;
+    opacity: 0;
+  }
+} */

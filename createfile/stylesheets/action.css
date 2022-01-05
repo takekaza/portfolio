@@ -1,105 +1,112 @@
 /* レスポンシブ */
-@media screen and (max-width : 1050px){
-  .wrapper2{
-    min-height: 1200px;
+@media screen and (max-width: 1050px) {
+  .wrapper {
   }
-  .profile_box2{
+  .profile_box2 {
     top: 5%;
   }
 }
-@media screen and (max-width : 1020px){
-  .cotop{
+@media screen and (max-width: 1020px) {
+  .cotop {
     font-size: 24px;
   }
-  .top{
+  .top {
     bottom: 777px !important;
   }
 }
-@media screen and (max-width : 820px){
-  .top{
+@media screen and (max-width: 820px) {
+  .top {
     bottom: 770px !important;
   }
-  .wrapper2{
-    min-height: 1700px;
+  .wrapper {
   }
-  .profile_box2{
+  .profile_box2 {
     top: 3%;
     left: 20px;
   }
-  .skillmid{
+  .skillmid {
     margin: 0 100px;
   }
-  .skillli1{
+  .skillli1 {
     margin: 7px 0;
   }
-  .skillbottom{
+  .skillbottom {
     margin: 0 100px;
     position: relative;
     top: 260px;
   }
-  .skillli2{
+  .skillli2 {
     margin: 14px 0 7px;
   }
 }
-@media screen and (max-width : 820px){
-  .content{
+@media screen and (max-width: 820px) {
+  .content {
     padding: 60px 10px 90px;
   }
 }
-@media screen and (max-width : 730px){
-  .aboutmid{
-    display: block;
+@media screen and (max-width: 730px) {
+  .aboutmid {
+    /* display: block; */
   }
-  .aboutname{
-    text-align: center;
+  .content-item {
+    text-align: right;
   }
-  .aboutimg{
-    margin-left: 120px;
-  }
-  .aboutbottom{
-    margin-top: 140px;
+  .aboutimg {
+    /* margin-left: 120px; */
   }
 }
-@media screen and (max-width : 710px){
-  .cotop{
+@media screen and (max-width: 710px) {
+  .profile > .profile__title {
+    font-size: 1.8rem;
+  }
+  .profile > .profile__renewal {
+    font-size: 1.8rem;
+  }
+  .cotop {
     font-size: 20px;
   }
-  .coform{
+  .coform {
     top: 40%;
   }
-  .portfoliotop{
+  .portfoliotop {
     margin: 0 140px;
   }
-  .portfoliomid{
+  .portfoliomid {
     margin: 0 140px;
   }
-  .portfoliobottom{
+  .portfoliobottom {
     margin: 0 140px;
   }
-  .portfolioli{
+  .portfolioli {
     top: 10px;
   }
-  .portfolioli6{
+  .portfolioli6 {
     top: 10px;
   }
-  .portfolioul2{
+  .portfolioul2 {
     top: 150px;
   }
-  .portfolioul3{
+  .portfolioul3 {
     top: 340px;
   }
-  .wrapper3{
+  .wrapper3 {
     min-height: 1700px;
   }
-  .profile_box3{
+  .profile_box3 {
     top: 5%;
   }
 }
-@media screen and (max-width : 620px){
-  .profile{
+@media screen and (max-width: 620px) {
+  .profile {
     left: 28%;
   }
-  .top{
+  .profile > .profile__title {
+    font-size: 1.6rem;
+  }
+  .profile > .profile__renewal {
+    font-size: 1.6rem;
+  }
+  .top {
     bottom: 719px !important;
     display: block;
     width: 100%;
@@ -111,77 +118,329 @@
     left: 0px;
     float: left;
   }
-  .skillmid{
+  .skillmid {
     margin: 0;
   }
-  .skillbottom{
+  .skillbottom {
     margin: 0;
   }
 }
-@media screen and (max-width : 490px){
-  .portfoliotop{
+@media screen and (max-width: 490px) {
+  .portfoliotop {
     margin: 0 50px;
   }
-  .portfoliomid{
+  .portfoliomid {
     margin: 0 50px;
   }
-  .portfoliomid2{
+  .portfoliomid2 {
     margin-top: 150px;
   }
-  .portfoliobottom{
+  .portfoliobottom {
     margin: 0 50px;
   }
 }
-@media screen and (max-width : 460px){
-  .profile{
+@media screen and (max-width: 460px) {
+  .profile {
     left: 22%;
   }
-  .content{
+  .content {
     padding: 30px 30px 50px;
   }
-  .aboutimg{
-    margin-left: 30px;
+  .aboutimg {
   }
-  .profile_box3{
+  .profile_box3 {
     top: 3%;
     left: 20px;
   }
-  .profile_box{
+  .profile_box {
     top: 3%;
     left: 20px;
-  }
-  .aboutbottom{
-    padding: 80px 20px 20px;
   }
 }
-@media screen and (max-width : 388px){
-  .profile{
+@media screen and (max-width: 388px) {
+  .profile {
     left: 20%;
+    top: 31%;
   }
-  .profile_box{
+  .profile > .profile__title {
+    font-size: 1.66rem;
+    letter-spacing: 0;
+  }
+  .profile > .profile__renewal {
+    font-size: 1.66rem;
+  }
+  .main-image {
+    max-width: 100%;
+    width: 250px;
+    top: -11%;
+    height: 250px;
+  }
+  .main-image > img {
+    height: 250px;
+  }
+  .profile_box {
     left: 20px;
     top: 5%;
   }
-  .profile_sub2{
-    padding: 2px;
-  }
-  .bar{
-    font-size: 32px;
-  }
-  .content{
+  .content {
     padding: 60px 10px 90px;
   }
-  .aboutul1{
+  .content-item {
+    padding: 5px 10% 0 0;
+    top: -6%;
+  }
+  .content-item > h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0px;
+  }
+  .content-item__text {
     line-height: 1.8;
-    padding-top: 0;
+    padding-left: 30px;
   }
-  .aboutul2{
-    line-height: 2;
+  .content-title {
+    font-size: 2.4rem;
+    right: -18%;
+    margin: 0;
+    bottom: auto;
+    top: 30%;
+    left: 40%;
   }
-  .top{
+  .about-image {
+    top: 60px;
+  }
+  .skill-box > li {
+    font-size: 2rem;
+  }
+  .profile-img {
+    height: 250px;
+    max-height: 100%;
+  }
+  .pf-link {
+    font-size: 1.2rem;
+  }
+  .content-item__text > li > p {
+    margin-bottom: 0;
+  }
+  .footer {
+    bottom: 0;
+  }
+  .top {
     bottom: 690px !important;
   }
-  .bottom{
-    bottom: 60px !important;
+  .bottom {
+    bottom: 160px !important;
   }
+}
+
+/* ローディングアニメーションCSS */
+.js-loading {
+  width: 100vw;
+  height: 100vh;
+  background-color: #9a9389;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.js-loading img {
+  width: 500px;
+}
+
+/* スクロールアイコン */
+.scrolldown {
+  /*描画位置※位置は適宜調整してください*/
+  position: absolute;
+  bottom: 1%;
+  right: 50%;
+  /*矢印の動き1秒かけて永遠にループ*/
+  animation: arrowmove 1s ease-in-out infinite;
+}
+/*下からの距離が変化して全体が下→上→下に動く*/
+@keyframes arrowmove {
+  0% {
+    bottom: 1%;
+  }
+  50% {
+    bottom: 3%;
+  }
+  100% {
+    bottom: 1%;
+  }
+}
+/*Scrollテキストの描写*/
+.scrolldown span {
+  /*描画位置*/
+  position: absolute;
+  left: -20px;
+  bottom: 10px;
+  /*テキストの形状*/
+  color: #000;
+  font-size: 0.7rem;
+  letter-spacing: 0.05em;
+  /*縦書き設定*/
+  -ms-writing-mode: tb-rl;
+  -webkit-writing-mode: vertical-rl;
+  writing-mode: vertical-rl;
+}
+/* 矢印の描写 */
+.scrolldown:before {
+  content: "";
+  /*描画位置*/
+  position: absolute;
+  bottom: 0;
+  right: -6px;
+  /*矢印の形状*/
+  width: 1px;
+  height: 20px;
+  background: #000;
+  transform: skewX(-31deg);
+}
+.scrolldown:after {
+  content: "";
+  /*描画位置*/
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  /*矢印の形状*/
+  width: 1px;
+  height: 50px;
+  background: #000;
+}
+
+/* 右矢印アイコン */
+.showright {
+  /*描画位置※位置は適宜調整してください*/
+  position: absolute;
+  bottom: 1%;
+  right: 50%;
+  /*矢印の動き1秒かけて永遠にループ*/
+  animation: arrowright 2s ease-in-out infinite;
+  transition: 1s;
+}
+/*下からの距離が変化して全体が下→上→下に動く*/
+@keyframes arrowright {
+  0% {
+    right: 1%;
+  }
+  50% {
+    right: 3%;
+  }
+  100% {
+    right: 1%;
+  }
+}
+/*Scrollテキストの描写*/
+.showright {
+  /*描画位置*/
+  position: absolute;
+  margin-right: 5%;
+  /*テキストの形状*/
+  color: #000;
+  font-size: 0.7rem;
+  letter-spacing: 0.05em;
+  /*縦書き設定*/
+  /* -ms-writing-mode: tb-rl;
+  -webkit-writing-mode: vertical-rl;
+  writing-mode: vertical-rl; */
+}
+/* 矢印の描写 */
+.showright:before {
+  content: "";
+  /*描画位置*/
+  position: absolute;
+  bottom: 0;
+  right: -14px;
+  /*矢印の形状*/
+  width: 1px;
+  height: 14px;
+  background: #000;
+  transform: skewX(45deg);
+}
+.showright:after {
+  content: "";
+  /*描画位置*/
+  position: absolute;
+  bottom: 0;
+  right: -20px;
+  /*矢印の形状*/
+  width: 50px;
+  height: 1px;
+  background: #000;
+}
+.showright:hover {
+  text-decoration: none;
+}
+.showright > span {
+  color: #262c2a;
+  font-weight: bold;
+  transition: 1s;
+  font-size: 0.9rem;
+}
+.showright > span:hover {
+  color: #63726d;
+}
+
+/* 左矢印アイコン */
+.showleft {
+  /*描画位置※位置は適宜調整してください*/
+  position: absolute;
+  bottom: 1%;
+  left: 2%;
+  /*矢印の動き1秒かけて永遠にループ*/
+  animation: arrowleft 2s ease-in-out infinite;
+  transition: 1s;
+}
+/*下からの距離が変化して全体が下→上→下に動く*/
+@keyframes arrowleft {
+  0% {
+    left: 1%;
+  }
+  50% {
+    left: 3%;
+  }
+  100% {
+    left: 1%;
+  }
+}
+/*Scrollテキストの描写*/
+.showleft {
+  /*描画位置*/
+  position: absolute;
+  bottom: 38%;
+  margin-left: 10%;
+  /*テキストの形状*/
+  color: #2c443a;
+  font-size: 1rem;
+  letter-spacing: 0.05em;
+}
+.showleft:hover {
+  text-decoration: none;
+  color: #537466;
+}
+/* 矢印の描写 */
+.showleft:before {
+  content: "";
+  /*描画位置*/
+  position: absolute;
+  bottom: 0;
+  left: -15px;
+  /*矢印の形状*/
+  width: 1px;
+  height: 14px;
+  background: #2c443a;
+  transform: skewX(-45deg);
+}
+.showleft:after {
+  content: "";
+  /*描画位置*/
+  position: absolute;
+  bottom: 0;
+  left: -20px;
+  /*矢印の形状*/
+  width: 60px;
+  height: 1px;
+  background: #2c443a;
 }
